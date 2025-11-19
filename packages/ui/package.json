@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./*": "./src/*.tsx"
+    "./*": "./src/*.tsx",
+    "./input": "./src/input/index.ts",
+    "./chat-threads": "./src/chat-threads/index.ts",
+    "./sidebar": "./src/sidebar/index.ts",
+    "./profile": "./src/profile/index.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
